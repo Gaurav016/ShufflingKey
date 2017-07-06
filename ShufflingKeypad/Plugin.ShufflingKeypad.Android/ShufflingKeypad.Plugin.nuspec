@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata minClientVersion="2.8.3">
+		<id>Swartz.Plugin.ShufflingKeypad</id>
+		<version>1.0.0</version>
+		<title>Shuffling Keypad Plugin for Xamarin and Windows</title>
+		<authors>Gaurav Singh</authors>
+		<owners>Gaurav Singh</owners>
+		<licenseUrl/>
+		<projectUrl/>
+		<!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->  
+		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>
+         Long description for your plugin.
+		</description>
+		<summary>Short description for your plugin.</summary>
+		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
+		<dependencies>
+			<group targetFramework="net">
+			</group>
+			<group targetFramework="win">
+			</group>
+			<group targetFramework="wp">
+			</group>
+			<group targetFramework="wpa">
+			</group>
+			<group targetFramework="MonoAndroid">
+			</group>
+			<group targetFramework="Xamarin.iOS10">
+			</group>
+			<group targetFramework="Xamarin.Mac20">
+			</group>
+			<group targetFramework="portable-net45+win+wpa81+wp80">
+			</group>
+			<group targetFramework="uap">
+			</group>
+			<group targetFramework="dotnet">
+			</group>
+		</dependencies>
+	</metadata>
+	<files>
+		<!--Core-->
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad\bin\Release\Plugin.ShufflingKeypad.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.ShufflingKeypad.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad\bin\Release\Plugin.ShufflingKeypad.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.ShufflingKeypad.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad\bin\Release\Plugin.ShufflingKeypad.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.ShufflingKeypad.pdb" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.dll" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.ShufflingKeypad.Abstractions.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.xml" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.ShufflingKeypad.Abstractions.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.pdb" target="lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.ShufflingKeypad.Abstractions.pdb" />		
+		
+		<!--dotnet-->
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad\bin\Release\Plugin.ShufflingKeypad.dll" target="lib\dotnet\Plugin.ShufflingKeypad.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad\bin\Release\Plugin.ShufflingKeypad.xml" target="lib\dotnet\Plugin.ShufflingKeypad.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad\bin\Release\Plugin.ShufflingKeypad.pdb" target="lib\dotnet\Plugin.ShufflingKeypad.pdb" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.dll" target="lib\dotnet\Plugin.ShufflingKeypad.Abstractions.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.xml" target="lib\dotnet\Plugin.ShufflingKeypad.Abstractions.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.pdb" target="lib\dotnet\Plugin.ShufflingKeypad.Abstractions.pdb" />
+		
+		<!--Win Phone Silverlight-->
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.WindowsPhone8\bin\Release\Plugin.ShufflingKeypad.dll" target="lib\wp8\Plugin.ShufflingKeypad.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.WindowsPhone8\bin\Release\Plugin.ShufflingKeypad.xml" target="lib\wp8\Plugin.ShufflingKeypad.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.WindowsPhone8\bin\Release\Plugin.ShufflingKeypad.pdb" target="lib\wp8\Plugin.ShufflingKeypad.pdb" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.dll" target="lib\wp8\Plugin.ShufflingKeypad.Abstractions.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.xml" target="lib\wp8\Plugin.ShufflingKeypad.Abstractions.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.pdb" target="lib\wp8\Plugin.ShufflingKeypad.Abstractions.pdb" />
+		
+		<!--Win Phone 81-->
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.WindowsPhone81\bin\Release\Plugin.ShufflingKeypad.dll" target="lib\wpa81\Plugin.ShufflingKeypad.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.WindowsPhone81\bin\Release\Plugin.ShufflingKeypad.xml" target="lib\wpa81\Plugin.ShufflingKeypad.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.WindowsPhone81\bin\Release\Plugin.ShufflingKeypad.pdb" target="lib\wpa81\Plugin.ShufflingKeypad.pdb" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.dll" target="lib\wpa81\Plugin.ShufflingKeypad.Abstractions.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.xml" target="lib\wpa81\Plugin.ShufflingKeypad.Abstractions.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.pdb" target="lib\wpa81\Plugin.ShufflingKeypad.Abstractions.pdb" />
+		
+		<!--WinStore-->
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.WindowsStore\bin\Release\Plugin.ShufflingKeypad.dll" target="lib\win8\Plugin.ShufflingKeypad.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.WindowsStore\bin\Release\Plugin.ShufflingKeypad.xml" target="lib\win8\Plugin.ShufflingKeypad.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.WindowsStore\bin\Release\Plugin.ShufflingKeypad.pdb" target="lib\win8\Plugin.ShufflingKeypad.pdb" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.dll" target="lib\win8\Plugin.ShufflingKeypad.Abstractions.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.xml" target="lib\win8\Plugin.ShufflingKeypad.Abstractions.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.pdb" target="lib\win8\Plugin.ShufflingKeypad.Abstractions.pdb" />
+
+		<!--Xamarin.Android-->
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Android\bin\Release\Plugin.ShufflingKeypad.dll" target="lib\MonoAndroid10\Plugin.ShufflingKeypad.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Android\bin\Release\Plugin.ShufflingKeypad.xml" target="lib\MonoAndroid10\Plugin.ShufflingKeypad.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Android\bin\Release\Plugin.ShufflingKeypad.pdb" target="lib\MonoAndroid10\Plugin.ShufflingKeypad.pdb" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.dll" target="lib\MonoAndroid10\Plugin.ShufflingKeypad.Abstractions.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.xml" target="lib\MonoAndroid10\Plugin.ShufflingKeypad.Abstractions.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.pdb" target="lib\MonoAndroid10\Plugin.ShufflingKeypad.Abstractions.pdb" />
+
+		<!--Xamarin.iOS-->
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.iOS\bin\iPhone\Release\Plugin.ShufflingKeypad.dll" target="lib\Xamarin.iOS10\Plugin.ShufflingKeypad.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.iOS\bin\iPhone\Release\Plugin.ShufflingKeypad.xml" target="lib\Xamarin.iOS10\Plugin.ShufflingKeypad.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.dll" target="lib\Xamarin.iOS10\Plugin.ShufflingKeypad.Abstractions.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.xml" target="lib\Xamarin.iOS10\Plugin.ShufflingKeypad.Abstractions.xml" />
+
+		<!--uap-->
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.UWP\bin\Release\Plugin.ShufflingKeypad.dll" target="lib\UAP10\Plugin.ShufflingKeypad.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.UWP\bin\Release\Plugin.ShufflingKeypad.xml" target="lib\UAP10\Plugin.ShufflingKeypad.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.UWP\bin\Release\Plugin.ShufflingKeypad.pdb" target="lib\UAP10\Plugin.ShufflingKeypad.pdb" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.dll" target="lib\UAP10\Plugin.ShufflingKeypad.Abstractions.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.xml" target="lib\UAP10\Plugin.ShufflingKeypad.Abstractions.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.pdb" target="lib\UAP10\Plugin.ShufflingKeypad.Abstractions.pdb" />
+		
+		<!--Xamarin.Mac
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Mac\bin\iPhone\Release\Plugin.ShufflingKeypad.dll" target="lib\Xamarin.Mac20\Plugin.ShufflingKeypad.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Mac\bin\iPhone\Release\Plugin.ShufflingKeypad.xml" target="lib\Xamarin.Mac20\Plugin.ShufflingKeypad.xml" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.dll" target="lib\Xamarin.Mac20\Plugin.ShufflingKeypad.Abstractions.dll" />
+		<file src="ShufflingKeypad\Plugin.ShufflingKeypad.Abstractions\bin\Release\Plugin.ShufflingKeypad.Abstractions.xml" target="lib\Xamarin.Mac20\Plugin.ShufflingKeypad.Abstractions.xml" />
+        -->
+	</files>
+</package>
